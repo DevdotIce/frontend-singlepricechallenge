@@ -130,21 +130,15 @@ body {
 
 /* Screen with 375px width */
 
-@media screen and (max-width: 700px){
+@media (max-width: 700px){
   
-  
-
-
   html {
     font-family: "Karla", sans-serif;
     font-size: 1rem;
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
   }
 
   body {
     height: 100vh;
-    
   }
 
 
@@ -197,5 +191,12 @@ body {
     width: 100%;
     padding: 1.6rem 1.6rem 1.6rem 1.6rem;
     
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-family: "Karla", sans-serif;
+    font-size: 1.4rem;
   }
 }
