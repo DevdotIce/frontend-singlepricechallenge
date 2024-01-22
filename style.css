@@ -1,0 +1,188 @@
+html {
+  font-family: "Karla", sans-serif;
+  font-size: 1.1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#card {
+  margin: 20% 20px;
+  width: 41rem;
+  height: 29rem;
+  background-color: white;
+  box-shadow: 5px 11px 26px -6px rgba(79,79,79,0.63);
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+#top-section {
+  width: 100%;
+  height: auto;
+  padding: 50px 0 50px 50px;
+  display: flex;
+  flex-flow: column;
+  line-height: .8;
+}
+
+#top-first-description h2 {
+  color: #2ebfbd;
+}
+
+
+#top-first-description > p {
+  font-weight: 600;
+  color: hsl(71, 73%, 54%);
+  line-height: 3;
+}
+
+
+#top-second-description {
+  line-height: 1.5;
+  color: hsl(218, 22%, 67%);
+
+}
+
+
+#bottom-section {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: auto;
+}
+
+
+#price-month {
+  display: flex;
+  flex-flow: row;
+}
+
+#month {
+  position: relative;
+  top: .5rem;
+  left: 1.2rem;
+  color: hsla(204, 43%, 93%, 0.7);
+}
+
+
+#bottom-left-section {
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  height: 100%;
+  padding: 2.6rem 2.7rem 6rem 2.5rem;
+  color: hsl(204, 43%, 93%);
+}
+
+#bottom-left-section > p {
+  padding-top: .5rem;
+  font-size: 1em;
+  
+}
+
+#bottom-left-section > button {
+  background-color: hsl(71, 73%, 54%);
+  font-size: medium;
+  font-weight: 600;
+  color: hsl(204, 43%, 93%);
+  height: 2.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 5px 1px 26px -6px rgba(79,79,79,0.75);
+  margin-top: 1.8rem;
+}
+
+#bottom-left-section > button:hover {
+  background-color: hsl(71, 61%, 45%);
+  cursor: pointer;
+}
+
+#bottom-right-section {
+  color: hsl(204, 43%, 93%);
+  background-color: #2ebfbd;
+  width: 50%;
+  height: 100%;
+  padding: 2.6rem 0 4rem 2.5rem;
+}
+
+#bottom-right-section > ul {
+  padding-top: 1rem;
+  list-style-type: none;
+  font-size: .8em;
+  line-height: 1.24rem;
+}
+
+
+
+/* Screen with 375px width */
+
+@media (max-width: 700px){
+  html {
+    font-family: "Karla", sans-serif;
+    font-size: 1rem;
+  }
+
+  #card {
+    margin: 20% 20px;
+    width: 20rem;
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  #top-section {
+    padding: 1.5rem .4rem 2rem 1.5rem;
+    display: flex;
+    flex-flow: column;
+  }
+
+  #top-first-description > p {
+    font-weight: 600;
+    color: hsl(71, 73%, 54%);
+    line-height: 1.5;
+    padding: 1.4rem 0;
+  }
+
+  #top-second-description {
+    font-size: .9rem;
+    color: hsl(218, 22%, 67%);
+  }
+
+  #bottom-section {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    /* height: ; */
+  }
+
+  #bottom-left-section {
+    background-color: hsl(179, 62%, 43%);
+    width: 100%;
+    padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+    color: hsl(204, 43%, 93%);
+  }
+
+  #bottom-left-section > button {
+    height: 3.2rem;
+  }
+
+  #bottom-right-section {
+    background-color: #2ebfbd;
+    width: 100%;
+    padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+    
+  }
+}
