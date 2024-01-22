@@ -1,1 +1,1 @@
-Hey everyone! Have a tale a look of my own way of design for the FrontEnd Mentor Challenge!
+Hey everyone! Have a take a look of my own way of design for the FrontEnd Mentor Challenge!
